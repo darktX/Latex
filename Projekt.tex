@@ -1,4 +1,5 @@
 \documentclass[openany,a4paper,12pt]{book}
+\usepackage{subfig}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -6,6 +7,7 @@
 \usepackage{float}
 \restylefloat{table}
 \usepackage{multirow}
+\usepackage{wrapfig}
 %\setlength{\textwidth}{+11cm}
 \title{The Triangulation of Titling Data in Non-Linear Gaussian Fashion via $\rho$ Series}
 \date{October 31, 2014}
@@ -137,7 +139,11 @@ the logarithmic cost model, also called logarithmic-cost measurement (and simila
 Run-time analysis is a theoretical classification that estimates and anticipates the increase in running time (or run-time) of an algorithm as its input size (usually denoted as n) increases. Run-time efficiency is a topic of great interest in computer science: A program can take seconds, hours or even years to finish executing, depending on which algorithm it implements (see also performance analysis, which is the analysis of an algorithm's run-time in practice).\cite{goossens93:3}
 \section{Shortcomings of empirical metrics}
 
-Since algorithms are platform-independent (i.e. a given algorithm can be implemented in an arbitrary programming language on an arbitrary computer running an arbitrary operating system), there are significant drawbacks to using an empirical approach to gauge the comparative performance of a given set of algorithms.
+\begin{wrapfigure}{r}{0.25\textwidth}
+    \centering
+    \includegraphics[width=0.25\textwidth]{picture7.png}
+    \label{rys3}
+\end{wrapfigure}Since algorithms are platform-independent (i.e. a given algorithm can be implemented in an arbitrary programming language on an arbitrary computer running an arbitrary operating system), there are significant drawbacks to using an empirical approach to gauge the comparative performance of a given set of algorithms.
 \newline\\
 Take as an example a program that looks up a specific entry in a sorted list of size n. Suppose this program were implemented on Computer A, a state-of-the-art machine, using a linear search algorithm, and on Computer B, a much slower machine, using a binary search algorithm.
 
@@ -237,9 +243,48 @@ This is the final chapter
 \begin{quotation}
 "Space: \cite{greenwade93:1} the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before." \cite{AbedonHymanThomas03:4}
 \end{quotation}
-\includegraphics[angle=90,scale=0.3]{picture3.jpg}
-\includegraphics[angle=90,scale=0.3]{picture4.jpg}
+\begin{center}
+\includegraphics[angle=0,scale=0.6]{picture4.png}
+\end{center}
+
 $$ax^2+bx+c+\dfrac{12}{x+1}$$
+\section{Tensile structure}
+A \textbf{tensile structure} is a construction of elements carrying only tension and no compression or bending. The term tensile should not be confused with tensegrity, which is a structural form with both tension and compression elements. Tensile structures are the most common type of thin-shell structures.
+\newline
+Most tensile structures are supported by some form of compression or bending elements, such as masts (as in The O2, formerly the Millennium Dome), compression rings or beams.
+\newline \newline
+A \textbf{tensile membrane structure} is most often used as a roof, as they can economically and attractively span large distances.
+\begin{figure}[H]
+    \centering
+    \subfloat[Hyperbolic paraboloid]{{\includegraphics[width=5cm]{picture5.png} }}
+    \qquad
+    \subfloat[Saddle Shape]{{\includegraphics[width=5cm]{picture6.png} }}
+    \caption{2 Figures side by side}
+\end{figure}
+As before, plotting the left hand side and right hand side of the equation against the tension, T, will give the equilibrium tension for a given pretension.
+\newline \newline
+\textbf{By equilibrium:}
+\begin{equation}
+\mathit{dist} = \sqrt{\left(\dfrac{dx}{hx}\right)^2 + \left(\dfrac{dy}{hy}\right)^2 + \left(\dfrac{dz}{hz}\right)^2}
+\end{equation}
+\textbf{By geometry:}
+\begin{equation}
+L_0+\frac{L_0(T-T_0)}{EA}=\sqrt{S^2+4\bigg(\frac{W(L_0+\frac{L_0(T-T_0)}{EA}}{4T}\bigg)}
+\end{equation}
+\section{Ruled surface}
+\begin{wrapfigure}{l}{0.4\textwidth}
+	\centering
+    \includegraphics[width=0.4\textwidth]{picture8.png}
+    
+    \caption{A ruled helicoid}
+\end{wrapfigure}
+The properties of being ruled or doubly ruled are preserved by projective maps, and therefore are concepts of projective geometry. In algebraic geometry ruled surfaces are sometimes considered to be surfaces in affine or projective space over a field, but they are also sometimes considered as abstract algebraic surfaces without an embedding into affine or projective space, in which case "straight line" is understood to mean an affine or projective line. A developable surface is a surface that can be (locally) unrolled onto a flat plane without tearing or stretching it. If a developable surface lies in three-dimensional Euclidean space, and is complete, then it is necessarily ruled, but the converse is not always true. For instance, the cylinder and cone are developable, but the general hyperboloid of one sheet is not. More generally, any developable surface in three dimensions is part of a complete ruled surface, and so itself must be locally ruled. There are developable surfaces embedded in four dimensions which are however not ruled.
+\newline \newline
+The "moving line" view means that a ruled surface has a parametric representation of the form
+
+$S(t, u)= p(t)+ur(t)$
+$p(t)=(cos(2t),sin(2t),cos(t)sin(2t))$
+
 \listoftables
 \listoffigures
 \bibliography{Projekt}
