@@ -25,7 +25,7 @@
 \end{quotation}
 \newpage
 \section{There are only five!}
-The Greeks recognized that there are only five platonic solids. But why is this so? The key observation is that the interior angles of the polygons meeting at a vertex of a polyhedron add to less than 360 degrees. To see this note that if such polygons met in a plane, the interior angles of all the polygons meeting at a vertex would add to exactly 360 degrees. Now cut an angle out of paper, and fold another piece of paper to that angle along a line \cite{smith96:2}. The first piece will fit into the second piece when it is perpendicular to the fold. Think of the fold as a line coming out of our polyhedron. The faces of the polyhedron meet at the fold at angles less than 90 degrees. How can this be possible? Try wiggling your first piece of paper within the second. To be able to incline it with respect to the fold you have to decrease the angle of the first piece, or increase the angle of the second. Next we'll consider all possibilities for the number of faces meeting at a vertex of a regular polyhedron.  \\\\
+The Greeks recognized that there are only five platonic solids. But why is this so? The key observation is that the interior angles of the polygons meeting at a vertex of a polyhedron add to less than 360 degrees. To see this note that if such polygons met in a plane, the interior angles of all the polygons meeting at a vertex would add to exactly 360 degrees. Now cut an angle out of paper, and fold another piece of paper to that angle along a line \cite{smith96}. The first piece will fit into the second piece when it is perpendicular to the fold. Think of the fold as a line coming out of our polyhedron. The faces of the polyhedron meet at the fold at angles less than 90 degrees. How can this be possible? Try wiggling your first piece of paper within the second. To be able to incline it with respect to the fold you have to decrease the angle of the first piece, or increase the angle of the second. Next we'll consider all possibilities for the number of faces meeting at a vertex of a regular polyhedron.  \\\\
 For each possibility we actually construct such a polyhedron, a picture of which you can see close by on this page. Here are the possibilities: 
 \begin{itemize}
 \item
@@ -126,7 +126,7 @@ Two cost models are generally used:
 \item 
 the uniform cost model, also called uniform-cost measurement (and similar variations), assigns a constant cost to every machine operation, regardless of the size of the numbers involved
 \item
-the logarithmic cost model, also called logarithmic-cost measurement (and similar variations), assigns a cost to every machine operation proportional to the number of bits involved \cite{Abedon94:5}
+the logarithmic cost model, also called logarithmic-cost measurement (and similar variations), assigns a cost to every machine operation proportional to the number of bits involved \cite{Abedon94}
 \end{enumerate}
 \begin{center}
 
@@ -136,7 +136,7 @@ the logarithmic cost model, also called logarithmic-cost measurement (and simila
 \end{center}
 \end{figure}
 \end{center}
-Run-time analysis is a theoretical classification that estimates and anticipates the increase in running time (or run-time) of an algorithm as its input size (usually denoted as n) increases. Run-time efficiency is a topic of great interest in computer science: A program can take seconds, hours or even years to finish executing, depending on which algorithm it implements (see also performance analysis, which is the analysis of an algorithm's run-time in practice).\cite{goossens93:3}
+Run-time analysis is a theoretical classification that estimates and anticipates the increase in running time (or run-time) of an algorithm as its input size (usually denoted as n) increases. Run-time efficiency is a topic of great interest in computer science: A program can take seconds, hours or even years to finish executing, depending on which algorithm it implements (see also performance analysis, which is the analysis of an algorithm's run-time in practice).\cite{goossens93}
 \section{Shortcomings of empirical metrics}
 
 \begin{wrapfigure}{r}{0.25\textwidth}
@@ -158,7 +158,7 @@ Take as an example a program that looks up a specific entry in a sorted list of 
 \end{center}
 \end{table}
 \section{Evaluating run-time complexity}
-As a rule-of-thumb \cite{greenwade93:1}, one can assume that the highest-order term in any given function dominates its rate of growth and thus defines its run-time order. In this example, $n^2$ is the highest-order term, so one can conclude that $f(n) = O(n^2)$. Formally this can be proven as follows:
+As a rule-of-thumb \cite{greenwade93}, one can assume that the highest-order term in any given function dominates its rate of growth and thus defines its run-time order. In this example, $n^2$ is the highest-order term, so one can conclude that $f(n) = O(n^2)$. Formally this can be proven as follows:
 \begin{equation}
 \bigg[\frac{1}{2}(n^2+n)\bigg]T_{6}+\bigg[\frac{1}{2}(n^2+3n)\bigg]T_{5}+(n+1)T_{4}+T_{1}+T_{2}+T_{3}+T_{7}<cn^2, n \geq n_{0}
 \end{equation}
@@ -241,7 +241,7 @@ http://www.math.utah.edu/~pa/math/polyhedra/polyhedra.html
 \chapter{The Final Frontier}
 This is the final chapter
 \begin{quotation}
-"Space: \cite{greenwade93:1} the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before." \cite{AbedonHymanThomas03:4}
+"Space: \cite{greenwade93} the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before." \cite{AbedonHymanThomas03}
 \end{quotation}
 \begin{center}
 \includegraphics[angle=0,scale=0.6]{picture4.png}
@@ -278,13 +278,20 @@ L_0+\frac{L_0(T-T_0)}{EA}=\sqrt{S^2+4\bigg(\frac{W(L_0+\frac{L_0(T-T_0)}{EA}}{4T
     
     \caption{A ruled helicoid}
 \end{wrapfigure}
-The properties of being ruled or doubly ruled are preserved by projective maps, and therefore are concepts of projective geometry. In algebraic geometry ruled surfaces are sometimes considered to be surfaces in affine or projective space over a field, but they are also sometimes considered as abstract algebraic surfaces without an embedding into affine or projective space, in which case "straight line" is understood to mean an affine or projective line. A developable surface is a surface that can be (locally) unrolled onto a flat plane without tearing or stretching it. If a developable surface lies in three-dimensional Euclidean space, and is complete, then it is necessarily ruled, but the converse is not always true. For instance, the cylinder and cone are developable, but the general hyperboloid of one sheet is not. More generally, any developable surface in three dimensions is part of a complete ruled surface, and so itself must be locally ruled. There are developable surfaces embedded in four dimensions which are however not ruled.
+The properties of being ruled or doubly ruled are preserved by projective maps, and therefore are concepts of projective geometry. In algebraic geometry ruled surfaces are sometimes considered to be surfaces in affine or projective space over a field\footnote{In mathematics, a field is one of the fundamental algebraic structures used in abstract algebra.}, but they are also sometimes considered as abstract algebraic surfaces without an embedding into affine or projective space, in which case "straight line" is understood to mean an affine or projective line. A developable surface is a surface that can be (locally) unrolled onto a flat plane without tearing or stretching it. If a developable surface lies in three-dimensional Euclidean space, and is complete, then it is necessarily ruled, but the converse is not always true. For instance, the cylinder\footnote{Commonly the word cylinder is understood to refer to a finite section of a right circular cylinder having a finite height with circular ends perpendicular to the axis as shown in the figure. If the ends are open, it is called an open cylinder. If the ends are closed by flat surfaces it is called a solid cylinder. The formulae for the surface area and the volume of such a cylinder have been known since deep antiquity.} and cone are developable, but the general hyperboloid\footnote{In mathematics, a hyperboloid is a quadric in three dimensions.} of one sheet is not. More generally, any developable surface in three dimensions is part of a complete ruled surface, and so itself must be locally ruled. There are developable surfaces embedded in four dimensions which are however not ruled.
 \newline \newline
-The "moving line" view means that a ruled surface has a parametric representation of the form
+The "moving line" view means that a ruled surface has a parametric representation of the form \cite{rowling97}
 
 $S(t, u)= p(t)+ur(t)$
 $p(t)=(cos(2t),sin(2t),cos(t)sin(2t))$
-
+\begin{center}
+\setlength{\unitlength}{0.8cm}
+\begin{picture}(8,4.5)
+\qbezier(0,3)(0,0)(4,0)
+\qbezier(4,0)(8,0)(4,3)
+\qbezier(4,3)(0,6)(0,3)
+\end{picture}
+\end{center}
 \listoftables
 \listoffigures
 \bibliography{Projekt}

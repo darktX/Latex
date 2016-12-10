@@ -1,6 +1,6 @@
 \begin{thebibliography}{1}
 
-\bibitem{Abedon94:5}
+\bibitem{Abedon94}
 S.~T. Abedon.
 \newblock Lysis and the interaction between free phages and infected cells.
 \newblock In Jim D.~Karam Karam, John~W. Drake, Kenneth~N. Kreuzer, Gisela
@@ -9,23 +9,28 @@ S.~T. Abedon.
   Molecular biology of bacteriophage T4}, pages 397--405. ASM Press, Washington
   DC, 1994.
 
-\bibitem{AbedonHymanThomas03:4}
+\bibitem{AbedonHymanThomas03}
 S.~T. Abedon, P.~Hyman, and C.~Thomas.
 \newblock Experimental examination of bacteriophage latent-period evolution as
   a response to bacterial availability.
 \newblock {\em Applied and Environmental Microbiology}, 69:7499--7506, 2003.
 
-\bibitem{goossens93:3}
+\bibitem{goossens93}
 Michel Goossens, Frank Mittelbach, and Alexander Samarin.
 \newblock {\em The LaTeX Companion}.
 \newblock Addison-Wesley, Reading, Massachusetts, 1993.
 
-\bibitem{greenwade93:1}
+\bibitem{greenwade93}
 George~D. Greenwade.
 \newblock The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN}).
 \newblock {\em TUGBoat}, 14(3):342--351, 1993.
 
-\bibitem{smith96:2}
+\bibitem{rowling97}
+J.~K. Rowling.
+\newblock {\em Harry Potter and the Philosopher's Stone}.
+\newblock Bloomsbury, 1997.
+
+\bibitem{smith96}
 John Smith.
 \newblock {\em The Go Zone}.
 \newblock The Grape Publishing, 1996.
